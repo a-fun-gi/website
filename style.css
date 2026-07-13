@@ -1,6 +1,5 @@
 body {
     background-color: blueviolet;
-    margin-top: 35px;
 }
 
 .title,h1,h2,h3 {
@@ -33,7 +32,11 @@ body {
 #header-text {
     margin-left: 5px;
     margin-top: 5px;
-    font-family: "Bungee Spice", sans-serif;
+    font-family: "Bungee Tint", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+#main {
+    margin-top: 35px;
 }
