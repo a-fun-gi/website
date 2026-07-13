@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Cherry+Bomb+One&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Cherry+Bomb+One&family=Nabla&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/icon.png">
 </head>
 <body>
@@ -14,7 +14,17 @@
             <a href="#projects">projects</a>
             <a href="#track">whatamidoingrn</a>
             <a href="#contact">say hi!</a>
+            <a href="#stardance">stardance</a>
         </nav>
+        <div id="notification">
+            <p id="notification-text">happy pride month!</p>
+            <button id="close-btn" onclick="hideNotification()">X</button>
+            <script>
+                function hideNotification() {
+                    document.getElementById('notification').style.display = 'none';
+                }
+            </script>
+        </div>
     </header>
     <section id="main">
         <h1 class="title">Greetings fellow humans!!</h1>
@@ -65,6 +75,11 @@
     <section id="contact">
         <h1>Reach out don't be a stranger!</h1>
         <p>im on hackclub slack as @a-fun-gi<br>you can also visit my github: <a href="https://github.com/a-fun-gi">a-fun-gi</a><br>or you can email me but only if it really matters: gavin.m.schultz@gmail.com</p>
+    </section>
+    <section id="stardance">
+        <h1>stardance hackathon</h1>
+        <p>this website is being submitted as a project to the <a href="https://stardance.hackclub.com">stardance hackathon</a></p>
+        <p>stardance is put on by <a href="https://hackclub.com">hackclub</a>, a global nonprofit by teens for teens interested in coding, computer science and hardware design</p>
     </section>
 </body>
 </html>
