@@ -15,4 +15,13 @@ async function update_time() {
     }
 }
 
+async function wave() {
+    while (1==1) {
+        document.getElementById("greeting").textContent = "Greetings fellow humans! \\(°▽°)/";
+        await sleep(500);
+        document.getElementById("greeting").textContent = "Greetings fellow humans! ⊙(°-°)⊙";
+        await sleep(500);
+    }
+}
 update_time()
+wave()

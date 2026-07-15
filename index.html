@@ -1,15 +1,17 @@
-<!DOCTYPE html><html>
+<!DOCTYPE html>
+<html>
 <head>
-    <title>Hello There!</title>
+    <title>Hi! (≧▽≦)</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Cherry+Bomb+One&family=Nabla&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/icon.png">
-</head>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <meta charset="UTF-8">
 <body>
-    <header id="header">
+    <header>
         <nav id="header-text">
+            <img src="assets/favicon.ico" type="image/x-icon" id="logo"></img>
             <a href="#main" style="margin-right:10px;">about</a>
             <a href="#projects" style="margin-right:10px;">projects</a>
             <a href="#track" style="margin-right:10px;">whatamidoingrn</a>
@@ -17,8 +19,8 @@
             <a href="#stardance">stardance</a>
         </nav>
         <div id="notification">
-            <p id="notification-text">doing great, thank you</p>
-            <button id="close-btn" onclick="hideNotification()">X</button>
+            <p id="notification-text">this is a notification designed to be annoying</p>
+            <button id="close-btn" onclick="hideNotification()">close X</button>
             <script>
                 function hideNotification() {
                     document.getElementById('notification').style.display = 'none';
@@ -27,19 +29,25 @@
         </div>
     </header>
     <section id="main">
-        <h1 class="title">Greetings fellow humans!!</h1>
-        <div >
+        <h1 class="title" id="greeting">Greetings fellow humans!! (°▽°)/</h1>
+        <div id="bio-row">
+            <div id="a-fun-gi">
+                <img src="assets/A-fun-gi - 2026-07-14 16.00.36.294.png" alt="shroom"></img>
+                <p style="text-align: center;"><em>this is me btw ↑</em></p>
+            </div>
             <p>I am Gavin Schultz, also known as a-fun-gi.<br>
-                I like to make things, such as: <br>
-                <ul>
-                    <li>robots</li>
-                    <li>video games</li>
-                    <li>stop motion animation</li>
-                    <li>and js awesome things generally ;}</li>
-                </ul>
-            </p><br>
-            <p>this is my website about me... <br>
-                more to come later folks!
+                <em><strong>a pithy bio:</strong></em><br>
+                I am a person who makes things. (what things?) robots, stop motion animation, and video games. This is my first website<br><br>
+                <em><strong>a pithy profile:</strong></em><br>
+                <strong>Name:</strong> Gavin<br>
+                <strong>Nickname:</strong> a-fun-gi<br>
+                <strong>Location:</strong> Sisters, Oregon, United States, North America, The Earth, The Milky Way, The Universe<br>
+                <strong>Qualifications:</strong> wut?<br>
+                <strong>Favorite foods:</strong> like literally anything except for chicken (sorry, america)<br>
+                <strong>Favorite places:</strong> lakes, my house, the mushroom kingdom, Mandalor<br>
+                <strong>Favorite music:</strong> the cat empire, daft punk, angine de poitrine<br>
+                <strong>Favorite video games:</strong> shattered pixel dungeon, 0 ad, minecraft, majoras mask<br>
+                <strong>Least favorite things:</strong> loud chewers, homophobics, sharp gravel<br>
             </p>
             <hr>
         </div>
@@ -47,7 +55,7 @@
     <section id="projects">
         <div class="title">
             <h1>These are things i made :O</h1>
-            <h2>robots!!!</h2>
+            <h2>robots!!! ( ͡° ͜ʖ ͡°)</h2>
             <h3>SMARS (the family)</h3>
         </div>
         <div class="content">
@@ -80,9 +88,10 @@
         <hr>
     </section>
     <section id="stardance">
-        <h1>stardance hackathon</h1>
-        <p>this website is being submitted as a project to the <a href="https://stardance.hackclub.com">stardance hackathon</a></p>
+        <h1>stardance challenge</h1>
+        <p>this website is being submitted as a project to the <a href="https://stardance.hackclub.com">stardance challenge</a></p>
         <p>stardance is put on by <a href="https://hackclub.com">hackclub</a>, a global nonprofit by teens for teens interested in coding, computer science and hardware design</p>
+        <p>want to sign up?<br><a href="https://stardance.hackclub.com">ｏ(‘▽’)/☆ﾟ’･:*☆YES ~</a></p>
     </section>
 </body>
 </html>
