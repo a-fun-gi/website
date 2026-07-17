@@ -1,3 +1,5 @@
+// pretty code
+
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 var thing = "";
 async function update_time() {
